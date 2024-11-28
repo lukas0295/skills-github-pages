@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_77ddcd8e3c3ef63ce3a84f767cec0c30 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_77ddcd8e3c3ef63ce3a84f767cec0c30" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_77ddcd8e3c3ef63ce3a84f767cec0c30 = L.map(
+                "map_77ddcd8e3c3ef63ce3a84f767cec0c30",
+                {
+                    center: [51.9625, 7.6256],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8aca7352c21e5c0a44f9be0bf7959304 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_8aca7352c21e5c0a44f9be0bf7959304.addTo(map_77ddcd8e3c3ef63ce3a84f767cec0c30);
+        
+    
+            var marker_1183f3f0e068c11ebfbce03a3563f2f5 = L.marker(
+                [51.9625, 7.6256],
+                {}
+            ).addTo(map_77ddcd8e3c3ef63ce3a84f767cec0c30);
+        
+    
+            var icon_b5a8e73fbb5da581e392f3280c076e46 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_1183f3f0e068c11ebfbce03a3563f2f5.setIcon(icon_b5a8e73fbb5da581e392f3280c076e46);
+        
+    
+        var popup_dce26bd14b05c09f99a23d4e0b6942af = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d574b958ce78514459e34693e20b6a6c = $(`<div id="html_d574b958ce78514459e34693e20b6a6c" style="width: 100.0%; height: 100.0%;">     <b>Datum:</b> 19.01.2024<br>     <b>Adresse:</b> Prinzipalmarkt 8, 48143 Münster<br>     <b>Belästigung:</b> Verbal     </div>`)[0];
+                popup_dce26bd14b05c09f99a23d4e0b6942af.setContent(html_d574b958ce78514459e34693e20b6a6c);
+            
+        
+
+        marker_1183f3f0e068c11ebfbce03a3563f2f5.bindPopup(popup_dce26bd14b05c09f99a23d4e0b6942af)
+        ;
+
+        
+    
+    
+            var marker_fe251bd1ec9c538752dfe1e8a46f6635 = L.marker(
+                [51.9634, 7.6258],
+                {}
+            ).addTo(map_77ddcd8e3c3ef63ce3a84f767cec0c30);
+        
+    
+            var icon_179f8ccaa4f1bc579c6e7a0c32a1513e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_fe251bd1ec9c538752dfe1e8a46f6635.setIcon(icon_179f8ccaa4f1bc579c6e7a0c32a1513e);
+        
+    
+        var popup_48d461363ad8cba635e713581050b759 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_bf6416684bcc32690385afbbe6d28aa1 = $(`<div id="html_bf6416684bcc32690385afbbe6d28aa1" style="width: 100.0%; height: 100.0%;">     <b>Datum:</b> 20.01.2024<br>     <b>Adresse:</b> Domplatz 1, 48143 Münster<br>     <b>Belästigung:</b> Physisch     </div>`)[0];
+                popup_48d461363ad8cba635e713581050b759.setContent(html_bf6416684bcc32690385afbbe6d28aa1);
+            
+        
+
+        marker_fe251bd1ec9c538752dfe1e8a46f6635.bindPopup(popup_48d461363ad8cba635e713581050b759)
+        ;
+
+        
+    
+    
+            var marker_9a0e8064b49b9486d673e013f894c10e = L.marker(
+                [51.9613, 7.6243],
+                {}
+            ).addTo(map_77ddcd8e3c3ef63ce3a84f767cec0c30);
+        
+    
+            var icon_88b0abfcbeaf1152deb2ae4a0dacc1ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_9a0e8064b49b9486d673e013f894c10e.setIcon(icon_88b0abfcbeaf1152deb2ae4a0dacc1ae);
+        
+    
+        var popup_c038c0217f25a7b88bc06a0f670a8e99 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_47b9d8cbcdaf80e096de28281ede72a1 = $(`<div id="html_47b9d8cbcdaf80e096de28281ede72a1" style="width: 100.0%; height: 100.0%;">     <b>Datum:</b> 21.01.2024<br>     <b>Adresse:</b> Jüdefelderstraße 50, 48143 Münster<br>     <b>Belästigung:</b> Verbal     </div>`)[0];
+                popup_c038c0217f25a7b88bc06a0f670a8e99.setContent(html_47b9d8cbcdaf80e096de28281ede72a1);
+            
+        
+
+        marker_9a0e8064b49b9486d673e013f894c10e.bindPopup(popup_c038c0217f25a7b88bc06a0f670a8e99)
+        ;
+
+        
+    
+    
+            var marker_18ee8db0f9fb9024dffc1d3e00c2a8d6 = L.marker(
+                [51.9601, 7.6359],
+                {}
+            ).addTo(map_77ddcd8e3c3ef63ce3a84f767cec0c30);
+        
+    
+            var icon_c597998c440e9f259a6c8ff2fb3fa9d5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_18ee8db0f9fb9024dffc1d3e00c2a8d6.setIcon(icon_c597998c440e9f259a6c8ff2fb3fa9d5);
+        
+    
+        var popup_accf73621e7ba5394374af7fdba5354a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_9fe39d530b2c3863ba9958c3eb593410 = $(`<div id="html_9fe39d530b2c3863ba9958c3eb593410" style="width: 100.0%; height: 100.0%;">     <b>Datum:</b> 22.01.2024<br>     <b>Adresse:</b> Wolbecker Straße 24, 48155 Münster<br>     <b>Belästigung:</b> Physisch     </div>`)[0];
+                popup_accf73621e7ba5394374af7fdba5354a.setContent(html_9fe39d530b2c3863ba9958c3eb593410);
+            
+        
+
+        marker_18ee8db0f9fb9024dffc1d3e00c2a8d6.bindPopup(popup_accf73621e7ba5394374af7fdba5354a)
+        ;
+
+        
+    
+    
+            var marker_40754a99790343b15af770832a20cf0d = L.marker(
+                [51.9548, 7.6323],
+                {}
+            ).addTo(map_77ddcd8e3c3ef63ce3a84f767cec0c30);
+        
+    
+            var icon_396af1728b7366c53efdf84bd0a4a0e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_40754a99790343b15af770832a20cf0d.setIcon(icon_396af1728b7366c53efdf84bd0a4a0e5);
+        
+    
+        var popup_501879e56da480fdd75b91cc7a683f21 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_991e74eb76967e45bedad411bd88d53b = $(`<div id="html_991e74eb76967e45bedad411bd88d53b" style="width: 100.0%; height: 100.0%;">     <b>Datum:</b> 23.01.2024<br>     <b>Adresse:</b> Hammer Straße 66, 48153 Münster<br>     <b>Belästigung:</b> Verbal     </div>`)[0];
+                popup_501879e56da480fdd75b91cc7a683f21.setContent(html_991e74eb76967e45bedad411bd88d53b);
+            
+        
+
+        marker_40754a99790343b15af770832a20cf0d.bindPopup(popup_501879e56da480fdd75b91cc7a683f21)
+        ;
+
+        
+    
+    
+            var marker_dec264fd4978da1a6a758d1e2891fb48 = L.marker(
+                [51.9512, 7.6005],
+                {}
+            ).addTo(map_77ddcd8e3c3ef63ce3a84f767cec0c30);
+        
+    
+            var icon_7fa7345adb6a4252ac201cca71c77a88 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_dec264fd4978da1a6a758d1e2891fb48.setIcon(icon_7fa7345adb6a4252ac201cca71c77a88);
+        
+    
+        var popup_491145ae47f8f2bfb6d394dcbfb625c3 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_4352cc4f1d47dbb8fd380152b92f192e = $(`<div id="html_4352cc4f1d47dbb8fd380152b92f192e" style="width: 100.0%; height: 100.0%;">     <b>Datum:</b> 24.01.2024<br>     <b>Adresse:</b> Mecklenbecker Straße 150, 48151 Münster<br>     <b>Belästigung:</b> Physisch     </div>`)[0];
+                popup_491145ae47f8f2bfb6d394dcbfb625c3.setContent(html_4352cc4f1d47dbb8fd380152b92f192e);
+            
+        
+
+        marker_dec264fd4978da1a6a758d1e2891fb48.bindPopup(popup_491145ae47f8f2bfb6d394dcbfb625c3)
+        ;
+
+        
+    
+    
+            var marker_fe9d841a2120e6e6481a4fb973b00632 = L.marker(
+                [51.9607, 7.6387],
+                {}
+            ).addTo(map_77ddcd8e3c3ef63ce3a84f767cec0c30);
+        
+    
+            var icon_5bbbf65fb0f996f1be4dbb997c3a55cc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_fe9d841a2120e6e6481a4fb973b00632.setIcon(icon_5bbbf65fb0f996f1be4dbb997c3a55cc);
+        
+    
+        var popup_c9796dc4831b416fbe04d57886923246 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_9d89f28d72a3373cbb8435b8bc112038 = $(`<div id="html_9d89f28d72a3373cbb8435b8bc112038" style="width: 100.0%; height: 100.0%;">     <b>Datum:</b> 25.01.2024<br>     <b>Adresse:</b> Hafenweg 15, 48155 Münster<br>     <b>Belästigung:</b> Verbal     </div>`)[0];
+                popup_c9796dc4831b416fbe04d57886923246.setContent(html_9d89f28d72a3373cbb8435b8bc112038);
+            
+        
+
+        marker_fe9d841a2120e6e6481a4fb973b00632.bindPopup(popup_c9796dc4831b416fbe04d57886923246)
+        ;
+
+        
+    
+    
+            var marker_34e0f1e98873628a3ffada188ef75bcf = L.marker(
+                [51.9652, 7.6435],
+                {}
+            ).addTo(map_77ddcd8e3c3ef63ce3a84f767cec0c30);
+        
+    
+            var icon_fcd7b0a73b8136ee478284a9d95064b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_34e0f1e98873628a3ffada188ef75bcf.setIcon(icon_fcd7b0a73b8136ee478284a9d95064b4);
+        
+    
+        var popup_32a4055ebef93e979c99d451b3f83499 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_f26e1b895462212277ee45eeecfc2463 = $(`<div id="html_f26e1b895462212277ee45eeecfc2463" style="width: 100.0%; height: 100.0%;">     <b>Datum:</b> 26.01.2024<br>     <b>Adresse:</b> Warendorfer Straße 56, 48145 Münster<br>     <b>Belästigung:</b> Physisch     </div>`)[0];
+                popup_32a4055ebef93e979c99d451b3f83499.setContent(html_f26e1b895462212277ee45eeecfc2463);
+            
+        
+
+        marker_34e0f1e98873628a3ffada188ef75bcf.bindPopup(popup_32a4055ebef93e979c99d451b3f83499)
+        ;
+
+        
+    
+    
+            var marker_1dc23e07b14d45435206bb87541da5c8 = L.marker(
+                [51.9754, 7.6309],
+                {}
+            ).addTo(map_77ddcd8e3c3ef63ce3a84f767cec0c30);
+        
+    
+            var icon_bad77d016187c41c851aea0ed1d763b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_1dc23e07b14d45435206bb87541da5c8.setIcon(icon_bad77d016187c41c851aea0ed1d763b4);
+        
+    
+        var popup_283a57e7b1f60aac64ee799f952900bc = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_79fc502d4cd05eb7e8759fb51b47419d = $(`<div id="html_79fc502d4cd05eb7e8759fb51b47419d" style="width: 100.0%; height: 100.0%;">     <b>Datum:</b> 27.01.2024<br>     <b>Adresse:</b> Grevener Straße 89, 48159 Münster<br>     <b>Belästigung:</b> Verbal     </div>`)[0];
+                popup_283a57e7b1f60aac64ee799f952900bc.setContent(html_79fc502d4cd05eb7e8759fb51b47419d);
+            
+        
+
+        marker_1dc23e07b14d45435206bb87541da5c8.bindPopup(popup_283a57e7b1f60aac64ee799f952900bc)
+        ;
+
+        
+    
+    
+            var marker_9d57e381aff9201a0caf4483398779b3 = L.marker(
+                [51.9699, 7.6228],
+                {}
+            ).addTo(map_77ddcd8e3c3ef63ce3a84f767cec0c30);
+        
+    
+            var icon_881050321fbde61b8a27ca360332188a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_9d57e381aff9201a0caf4483398779b3.setIcon(icon_881050321fbde61b8a27ca360332188a);
+        
+    
+        var popup_0b1971c8a2236e575d18de79e9feb13b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_cc58e1c76a52c4099a60cf48bb945995 = $(`<div id="html_cc58e1c76a52c4099a60cf48bb945995" style="width: 100.0%; height: 100.0%;">     <b>Datum:</b> 28.01.2024<br>     <b>Adresse:</b> York-Ring 42, 48159 Münster<br>     <b>Belästigung:</b> Physisch     </div>`)[0];
+                popup_0b1971c8a2236e575d18de79e9feb13b.setContent(html_cc58e1c76a52c4099a60cf48bb945995);
+            
+        
+
+        marker_9d57e381aff9201a0caf4483398779b3.bindPopup(popup_0b1971c8a2236e575d18de79e9feb13b)
+        ;
+
+        
+    
+</script>
+</html>
